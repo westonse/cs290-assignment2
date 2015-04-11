@@ -1,1 +1,41 @@
+thead{
+	background-color: white;
+	border: solid thin;
+	
+}
+th{
+	border: solid thin;
+}
+table{
+	border: solid thin;
+}
+tfoot{
+	background-color: white;
+}
+td{
+	border: solid thin;
+	height: 1.4em;
+	width: 1.4em;
+	text-align: center;
+	padding:2px;
+	
+}
+tbody{
+	border: solid thin;
+}
+tbody tr:nth-child(even){
+	background-color: #ADD8E6;
+	
+}
+tbody tr:nth-child(odd){
+	background-color: #90EE90;
+}
+
+tbody tr td:nth-child(2){
+	color: red;
+}
+
+tbody tr td:nth-child(4){
+	color: blue;
+}
 
