@@ -6,6 +6,12 @@ thead{
 th{
 	border: solid thin;
 }
+dt:hover+ dd{
+	background-color: purple;
+}
+form{
+	border: solid thin;
+}
 table{
 	border: solid thin;
 }
@@ -17,7 +23,7 @@ td{
 	height: 1.4em;
 	width: 1.4em;
 	text-align: center;
-	padding:2px;
+	padding:1px;
 	
 }
 tbody{
