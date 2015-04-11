@@ -6,28 +6,23 @@ thead{
 th{
 	border: solid thin;
 }
-dt:hover+ dd{
-	background-color: purple;
-}
-form{
-	border: solid thin;
+tbody  tr  th{
+	font-style: italic;
+	font-weight: normal;
 }
 table{
 	border: solid thin;
 }
-tfoot{
-	background-color: white;
+tbody{
+	border: solid thin;
 }
 td{
 	border: solid thin;
-	height: 1.4em;
-	width: 1.4em;
+	height: 20px;
+	width: 20px;
 	text-align: center;
 	padding:1px;
 	
-}
-tbody{
-	border: solid thin;
 }
 tbody tr:nth-child(even){
 	background-color: #ADD8E6;
@@ -44,24 +39,35 @@ tbody tr td:nth-child(2){
 tbody tr td:nth-child(4){
 	color: blue;
 }
+tfoot{
+	background-color: white;
+}
+dt:hover+ dd{
+	background-color: purple;
+}
+form{
+	border: solid thin;
+}
 div.outer-content{
-	margin:20px;
+	margin-top:20px;
 	top:0;
 	left:0;
 	width:75%;
 	height: 50px;
 	background-color: pink;
+	align:left;
+	
 
 }
 div.inner-content{
 	width:75%;
 	height: 50%;
 	top: 25%;
-	left: 12%;
-	right: 13%;
-	margin: 0 aut0;
+	left: 12.5%;
+	right: 12.5%;
 	position: relative;
 	background-color: blue;
+	text-align: center;
 }
 img{
 	height: 100px;
