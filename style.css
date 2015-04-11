@@ -44,4 +44,28 @@ tbody tr td:nth-child(2){
 tbody tr td:nth-child(4){
 	color: blue;
 }
+div.outer-content{
+	margin:20px;
+	top:0;
+	left:0;
+	width:75%;
+	height: 50px;
+	background-color: pink;
+
+}
+div.inner-content{
+	width:75%;
+	height: 50%;
+	top: 25%;
+	left: 12%;
+	right: 13%;
+	margin: 0 aut0;
+	position: relative;
+	background-color: blue;
+}
+img{
+	height: 100px;
+	width: 125px;
+	float: left;
+}
 
